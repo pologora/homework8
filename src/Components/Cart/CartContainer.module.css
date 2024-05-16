@@ -1,0 +1,20 @@
+.listItem {
+  margin-block: 1rem;
+  border: 1px solid black;
+  max-width: 200px;
+  padding: 0.5rem;
+}
+
+.bookTitle {
+  font-weight: 600;
+}
+
+.actionButton {
+  padding: 4px 7px;
+}
+
+.actionButtonsContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

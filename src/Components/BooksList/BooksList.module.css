@@ -1,0 +1,9 @@
+.booksList {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.booksListContainer {
+    padding: 1rem;
+}
