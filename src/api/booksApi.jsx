@@ -1,4 +1,4 @@
-import { axiosInstance } from "./axiosInstance.tsx";
+import { axiosInstance } from "./axiosInstance";
 
 export async function getAllBooks() {
   const { data } = await axiosInstance.get("/books");
