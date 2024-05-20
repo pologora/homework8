@@ -11,3 +11,15 @@ li {
 .wrapper {
   padding: 1rem;
 }
+
+button {
+  padding: 4px 8px;
+  background-color: transparent;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: bisque;
+}

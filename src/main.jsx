@@ -10,6 +10,7 @@ import ContextsWrapper from "./ContextsWrapper/ContextsWrapper.jsx";
 import User from "./Components/User/User.jsx";
 import Layout from "./Components/Layout/Layout.jsx";
 import Orders from "./Components/Orders/Orders.jsx";
+import CreateBook from "./Components/Book/CreateBook.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/orders",
         element: <Orders />,
+      },
+      {
+        path: "/books/create",
+        element: <CreateBook />,
       },
     ],
   },

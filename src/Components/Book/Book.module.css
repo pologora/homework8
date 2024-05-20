@@ -1,24 +1,45 @@
 .book {
-    border: 1px solid black;
-    padding: 1rem;    
-    margin-block: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  margin-block: 1rem;
 }
 
 .bookProperties {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
 
-.bookPropertiesTitle{
-    font-weight: 600;
+.bookPropertiesTitle {
+  font-weight: 600;
 }
 
 .addToCart {
-    margin-top: 1rem;
-    padding: 5px 10px;
+  margin-top: 1rem;
+  padding: 5px 10px;
 }
 
+.inputContainer {
+  margin-block: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
 
+.formContainer {
+  margin: 1rem;
+  margin-inline: auto;
+  max-width: 300px;
+}
 
+.inputContainer label {
+  margin-right: 1rem;
+}
 
+.inputContainer input {
+  padding: 2px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
